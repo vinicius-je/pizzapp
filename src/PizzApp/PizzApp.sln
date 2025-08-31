@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzApp", "PizzApp\PizzApp.csproj", "{0DEAC7ED-147E-4288-B175-60EEA61D48EE}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{09DE71F1-950D-4AAA-9CFF-C45C138F859B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzApp.Application.Tests", "PizzApp.Tests\PizzApp.Application.Tests.csproj", "{07A62608-3470-480A-912A-D622648D313C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DEAC7ED-147E-4288-B175-60EEA61D48EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DEAC7ED-147E-4288-B175-60EEA61D48EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DEAC7ED-147E-4288-B175-60EEA61D48EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DEAC7ED-147E-4288-B175-60EEA61D48EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09DE71F1-950D-4AAA-9CFF-C45C138F859B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09DE71F1-950D-4AAA-9CFF-C45C138F859B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09DE71F1-950D-4AAA-9CFF-C45C138F859B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09DE71F1-950D-4AAA-9CFF-C45C138F859B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07A62608-3470-480A-912A-D622648D313C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A62608-3470-480A-912A-D622648D313C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A62608-3470-480A-912A-D622648D313C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A62608-3470-480A-912A-D622648D313C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

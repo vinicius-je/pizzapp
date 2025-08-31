@@ -1,0 +1,18 @@
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server
+    container_name: PizzAppDB
+    ports:
+      - "1433:1433"
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "@123abc#"
+    restart: unless-stopped
+
+  pizzapp:
+    image: ${DOCKER_REGISTRY-}pizzapp
+    build:
+      context: .
+      dockerfile: PizzApp/Dockerfile
+    depends_on:
+      - sqlserver
